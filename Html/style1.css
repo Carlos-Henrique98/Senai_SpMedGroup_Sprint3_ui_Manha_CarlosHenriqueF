@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* menu */
+
+header{
+    padding: 10px 60px;
+}
+
+header ul{
+    padding: 25px 60px;
+}
+
+.logo{
+    float: left;
+}
+
+.menu{
+    float: right;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding:  95px 14px 0 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+}
+
+.fundo-black{
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 80px;
+}
+
+.logo img{
+    width: 80px;
+    height: 80px;
+    
+}
+
+/* FIM-MENU */
+
+.hero{
+    width: 100%;
+    height: 70vh;
+    /* background-image: url(Imagens/Fotos/banner1.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} 
+
+/*BEM-VINDO*/
+.hero .container .sub-headline{
+    color: #000;
+    font-size: 70px;
+    font-family: 'Great Vibes', cursive;
+    align-items: center;
+    font-weight: 60;
+}
+
+
+
+.container img{
+    width: 40px;
+    height: 40px;
+}
+
+section .hero .headline{
+    color: #000;
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 40;
+}
+
+.separador{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+ }
+
+ .linha{
+    width: 100%;
+    max-width: 8.4rem;
+    height: .15rem;
+    background-color: #000;
+    position: relative;
+}
+
+.linha-direita::before,
+.linha-esquerda::before{
+    content:'';
+    position: absolute;
+    top: 50%;
+    transform:  translateY(-50%);
+    border: .6rem solid transparent;
+}
+
+.linha-direita::before{
+    border-right-color: #000;
+    right: 0;
+}
+
+.linha-esquerda::before{
+    border-left-color: #000;
+    left: 0;
+}
+
+.remedio-icon{
+    margin: 0 1.6rem;
+}
+
+/*MEIO*/
+
+
+.meio h3 h5{
+    display: flex;
+    flex-direction: row;
+}
+
+.meio img{
+    width: 650px;
+    height: 400px;
+    float:right;
+    padding: 10px 40px 0 0;
+    
+}
+
+.meio h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 10px 0 0 30px;
+}
+
+.meio h5{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    padding: 0 0 0 30px;
+}
+
+.meio .servico1{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(14, 69, 187);
+}
+
+.meio .servico2{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(163, 163, 163);
+}
+
+.meio .servico3{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(14, 69, 187);
+}
+
+.meio .servico4{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(163, 163, 163);
+}
+.meio h6{
+    padding: 20px 0 0 30px;
+    font-size: 16px;
+}
+
+.meio .quadrados-linha{
+    
+    margin: 10px 10px 0 10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
