@@ -48,7 +48,7 @@ header{
     top: 0;
     left: 0;
     z-index: 1;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), transparent);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.3), transparent);
 }
 
 /*ANIMACAO DO FUNDO - IMAGENS*/
@@ -70,7 +70,7 @@ header{
 /*ANIMACAO*/
 @keyframes animate{
     0%,100%{
-        background-image: url(Imagens/Capa/capa15.jpg);
+        background-image: url(Imagens/Capa/capa6.jpg);
     }
     25%{
         background-image: url(Imagens/Capa/capa4.jpg);
@@ -79,12 +79,6 @@ header{
         background-image: url(Imagens/Capa/capa7.jpg);
     }
 }
-
-/* .hero{
-    position: absolute;
-    left:0;
-    top:0;
-} */
 
 .sub-headline{
     font-size: 2.5rem;
@@ -145,10 +139,231 @@ header{
 .headline-description h5{
     color:#000;
     font-size: 2.0rem;
-    font-weight:100;
+    font-weight:300;
     text-transform: uppercase;
     margin-bottom: 1.2rem;
     letter-spacing: 3px;
     margin-right: -3px;
     font-family: 'Electrolize', sans-serif;
+}
+
+/*Espaco - INFORMAÇÕES*/
+
+/*espacamento*/
+.titulo-info{
+    text-align: center;
+    margin-top: 3.9rem;
+}
+
+/* .espaco-info .titulo-info{
+    margin-top: 6.0rem;
+} */
+
+/*SPMEDGROUP*/
+.clinica-descricao span{
+    font-family: 'Electrolize', sans-serif;
+    font-size: 38px;
+    font-weight: 60;
+    /* float: left; */
+    padding: 0  0  0 20px;
+}
+
+.clinica-descricao{
+    margin-bottom: 3rem;
+    display: block;
+    flex-direction: column;
+}
+
+.clinica-descricao p{
+    line-height:  1.6;
+    margin-bottom: 2.4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .informacoes-img{
+    float: right;
+} */
+
+/*IMAGENS*/
+.container2{
+    width: 1280px;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container2 .box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: #ff0;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.container2 .box .imgBox{
+    position: relative;
+    overflow: hidden;
+}
+
+.container2 .box .imgBox img{
+    max-width: 100%;
+    transition: transform 2s;
+}
+
+.container2 .box:hover .imgBox img{
+    transform: scale(1.2);
+
+}
+
+.container2 .box .detalhes{
+    position: absolute;
+    top:10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0,0,0,.4);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+
+.content2 .box:hover .detalhes{
+    transform: scaleY(1);
+}
+
+.container2 .box .detalhes .content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color:#fff;
+}
+
+.container2 .box .detalhes .content h2{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color:#ff0;
+}
+
+.container2 .box .detalhes .content p{
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+/*TAMANHO IMAGEM*/
+.img1 img{
+    width: 300px;
+    height: 300px;
+}
+
+.nome-espaco h2{
+    font-size: 38px;
+    font-family: 'Electrolize', sans-serif;
+    text-align: center;
+}
+
+
+/*Carousel*/
+
+.blogs{
+    width: 100%;
+    margin: 250px auto 0;
+    /* top: 50%; */
+    display: flex;
+    flex-direction: row;
+    transform: translateY(-50%);
+}
+
+.blog{
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    cursor: pointer;
+   
+}
+
+.blog img{
+    width: 100%;
+    height: 100%;
+}
+
+.blog-descricao{
+    position: absolute;
+    bottom: -40px;
+    background: #333333ca;
+    width: 100%;
+    padding: 40px;
+    transition: .3s linear;
+}
+
+.blog:hover .blog-descricao{
+    bottom: 0;
+}
+
+.categoria{
+    display: inline-block;
+    color:#e77f67;
+    font-size: 18px;
+    position: relative;
+    padding: 0 22px;
+}
+
+.categoria::before{
+    content:'';
+    position: absolute;
+    width: 14px;
+    height: 2px;
+    background: #e77f67;
+    left:0;
+    top: 13px;
+}
+
+.categoria::after{
+    content:'';
+    position: absolute;
+    width: 14px;
+    height: 2px;
+    background: #e77f67;
+    right:0;
+    top: 13px;
+}
+
+.title{
+    color: #fff;
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+.date{
+    font-style: italic;
+    color: #e77f67;
+    margin-bottom: 20px;
+}
+
+.btn{
+    display: inline-block;
+    color: #e77f67;
+    text-decoration: none;
+    border: 1px solid #e77f67;
+    padding: 6px 20px;
+    opacity: 0;
+    transition:  .3s linear;
+}
+
+.blog:hover .btn{
+    opacity: 1;
+}
+
+.btn:hover{
+    color:#fff;
+    background: #e77f67;
+}
+
+.owl-stage{
+    display: flex !important;
 }
