@@ -186,6 +186,10 @@ header{
 } */
 
 /*IMAGENS*/
+
+
+
+
 .container2{
     width: 1280px;
     margin: 70px auto 0;
@@ -225,12 +229,12 @@ header{
     left: 10px;
     bottom: 10px;
     right: 10px;
-    background: rgba(0,0,0,.4);
+    background: rgba(0,0,0,.1);
     transform: scaleY(0);
     transition: transform .5s;
 }
 
-.content2 .box:hover .detalhes{
+.container2 .box:hover .detalhes{
     transform: scaleY(1);
 }
 
@@ -270,6 +274,13 @@ header{
 
 /*Carousel*/
 
+section .nome-espaco h2{
+    width: 100%;
+    height: 120px;
+    padding: 60px 0 0 0 ;
+}
+
+
 .blogs{
     width: 100%;
     margin: 250px auto 0;
@@ -295,7 +306,7 @@ header{
 .blog-descricao{
     position: absolute;
     bottom: -40px;
-    background: #333333ca;
+    background-color: rgba(0,0,0,.3);
     width: 100%;
     padding: 40px;
     transition: .3s linear;
@@ -307,7 +318,7 @@ header{
 
 .categoria{
     display: inline-block;
-    color:#e77f67;
+    color:#1cb48e;
     font-size: 18px;
     position: relative;
     padding: 0 22px;
@@ -318,7 +329,7 @@ header{
     position: absolute;
     width: 14px;
     height: 2px;
-    background: #e77f67;
+    background: #1cb48e;
     left:0;
     top: 13px;
 }
@@ -328,28 +339,23 @@ header{
     position: absolute;
     width: 14px;
     height: 2px;
-    background: #e77f67;
+    background: #1cb48e;
     right:0;
     top: 13px;
 }
 
 .title{
     color: #fff;
-    font-weight: 500;
+    font-weight: 100;
     margin: 5px 0;
 }
 
-.date{
-    font-style: italic;
-    color: #e77f67;
-    margin-bottom: 20px;
-}
 
 .btn{
     display: inline-block;
-    color: #e77f67;
+    color: #1cb48e;
     text-decoration: none;
-    border: 1px solid #e77f67;
+    border: 1px solid #1cb48e;
     padding: 6px 20px;
     opacity: 0;
     transition:  .3s linear;
@@ -361,12 +367,25 @@ header{
 
 .btn:hover{
     color:#fff;
-    background: #e77f67;
+    background: #201b1a;
 }
 
 .owl-stage{
     display: flex !important;
 }
+
+/*MAPA*/
+iframe{
+    padding: 10px 0 60px 0;
+}
+
+/*FUNDO AZUL*/
+.container-azul{
+    width: 100%;
+    height: 20px;
+    background: rgb(rgb(37, 37, 184));
+}
+
 
 /*FOOTER*/
 
