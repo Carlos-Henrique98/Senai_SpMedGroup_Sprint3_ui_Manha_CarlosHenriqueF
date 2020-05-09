@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    /* background-image: url(../Imagens/Fotos/PessoasMed/FUNDO.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh; */
+    background: rgb(221, 221, 221);
+}
+
+/*LOGO*/
+.logo img{
+    width: 100px;
+    height: 100px;
+    /* padding: 40px 0 0 30px; */
+}
+
+.menu{
+    flex: 1;
+    text-align: right;
+    
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.menu ul a li{
+    color:#fff;
+    font-family: 'Electrolize', sans-serif;
+    font-weight: 20;
+    font-size: 25px;
+    margin:  0 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 30px 0 30px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+header{
+    width: 100%;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.6), transparent);
+}
+
+.container{
+    padding: 20px 0 0 0;
+}
+
+
+.tipoU{
+    background-color: black;
+    border: 5px solid #000;
+    border-radius: 1rem;
+    width: 350px;
+    height: 50px;
+}
+
+.tipoU h2{
+    color:#fff;
+    font-size: 25px;
+    font-family: 'Electrolize', sans-serif;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 15px 0 0 0; */
+}
+
+.container .tipoU{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.posicao-container{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 0 0;
+}
+
+section .container-icones{
+    background-color: rgb(13, 13, 218);
+    width: 1200px;
+    height: 350px;
+    border:5px solid #000;
+    border-radius: 5rem;
+}
+
+section .container-icones h1{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 25px;
+}
+
+.icon{
+    padding: 0 95px 95px 0;
+}
+
+.icones-hosp{
+    display: flex;
+    align-content: space-between;
+    justify-content: center;   
+    padding: 50px 0 0 0;
+}
+
+.container-icones .icones-hosp img h3{
+    display: flex;
+    justify-content: center;
+}
+
+.icone-adm{
+    display: flex;
+    align-content: space-between;
+    cursor: pointer;
+    align-items: center;
+}
+
+.icone-adm h3{
+    color: #fff;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 20px;
+}
+
+.icone-medico{
+    display: flex;
+    align-content: space-between;
+    cursor: pointer;
+    align-items: center;
+}
+
+.icone-medico h3{
+    color: #fff;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 20px;
+}
+
+.icone-paciente{
+    display: flex;
+    align-content: space-between;
+    cursor: pointer;
+    align-items: center;
+}
+
+.icone-paciente h3{
+    color: #fff;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 20px;
+}
+
+.container-icones .icon img{
+    width: 90px;
+    height: 90px;
+}
+
+.icone-adm img h3{
+    display: inline-block;
+    align-content: flex-start;
+}
+
+.botaos{
+    display: flex;
+    align-content: space-around;
+    padding: 20px 50px 15px 0;
+    justify-content:flex-end;
+}
+
+.botao-continuar{
+    padding: 0px 25px 0 0;
+}
+
+.botao-continuar h2{
+    background-color: rgb(13, 13, 218);
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 1rem;
+}
+
+.botao-voltar h2{
+    background-color: #000;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 1rem;
+}
