@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #fff;
+}
+
+/*LOGO*/
+.logo img{
+    width: 100px;
+    height: 100px;
+    /* padding: 40px 0 0 30px; */
+}
+
+.menu{
+    flex: 1;
+    text-align: right;
+    
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.menu ul a li{
+    color:#fff;
+    font-family: 'Electrolize', sans-serif;
+    font-weight: 20;
+    font-size: 25px;
+    margin:  0 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 30px 0 30px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+header{
+    width: 100%;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.6), transparent);
+}
+
+/*---------------------------------------------------------*/
+
+.container-consultas{
+    background-color: rgb(92, 92, 212);
+    width: 100%;
+    height: 100px;
+}
+
+.container-consultas h2{
+    color: #fff;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+.container-consultas h2{
+ 
+}
+
+/*--------------------------------------------*/
+
+.registros{
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.bloc{
+    padding: 30px 20px 0 20px;
+}
+
+.registros h3{
+    font-family: 'Electrolize', sans-serif;
+    font-size: 20px;
+}
+
+.nome-container{
+    background-color: #fff;
+    width: 260px;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 0.5rem;
+}
+
+.bloc .nome-container p{
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+
+}
+
+.nome-container p{
+    text-align: center;
+}
+
+.data-container{
+    background-color: #fff;
+    width: 260px;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 0.5rem;
+}
+
+.descricao-container{
+    background-color: #fff;
+    width: 260px;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 0.5rem;
+}
+
+.botao-salvar{
+    background-color: blue;
+    width: 180px;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 0.5rem;
+
+}
+
+.botao-salvar p{
+    font-size: 24px;
+    font-family: 'Electrolize', sans-serif;
+    color:#fff;
+    text-align: center;
+}
+
+.botao-cancelar{
+    background-color: black;
+    width: 180px;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 0.5rem;
+}
+
+.botao-cancelar p{
+    font-size: 24px;
+    font-family: 'Electrolize', sans-serif;
+    color:#fff;
+    text-align: center;
+}
+
+.botoes{
+    display: flex;
+    align-content: space-between;
+    justify-content: flex-end;
+}
+
+.botoes{
+    padding: 20px 15px 0 0;
+}
+
+.container-rodape{
+    width: 100%;
+    height: 50px;
+    background: #000;
+}
