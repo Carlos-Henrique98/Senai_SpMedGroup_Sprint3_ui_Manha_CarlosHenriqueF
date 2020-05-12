@@ -103,15 +103,24 @@ section .container-consultas{
 }
 
 #dados-do-paciente{
-    padding: 0 0 15px 0;
+    padding: 0 0 15px 10px;
 }
 
-.nome-container{
+/* .nome-container{
     background-color: #fff;
     width: 260px;
     height: 50px;
     border: 2px solid #000;
     border-radius: 0.5rem;
+} */
+
+.nome-container input{
+    background-color: #fff;
+    width: 260px;
+    height: 50px;
+    border: 1.4px solid #000;
+    border-radius: 0.5rem;
+    font-size: 22px;
 }
 
 .bloc .nome-container{
@@ -124,12 +133,21 @@ section .container-consultas{
     text-align: center;
 }
 
-.data-container{
+/* .data-container{
     background-color: #fff;
     width: 260px;
     height: 50px;
     border: 2px solid #000;
     border-radius: 0.5rem;
+} */
+
+.data-container input{
+    background-color: #fff;
+    width: 260px;
+    height: 50px;
+    border: 1.4px solid #000;
+    border-radius: 0.5rem;
+    font-size: 22px;
 }
 
 .bloc .data-container{
@@ -138,12 +156,27 @@ section .container-consultas{
     padding:  0 0 0 10px;
 }
 
-.descricao-container{
+/* .descricao-container{
     background-color: #fff;
     width: 260px;
     height: 50px;
     border: 2px solid #000;
     border-radius: 0.5rem;
+} */
+
+.cont #dados{
+    color: #000;
+    font-size: 16px;
+    padding: 1rem;
+}
+
+.descricao-container input{
+    background-color: #fff;
+    width: 260px;
+    height: 50px;
+    border: 1.4px solid #000;
+    border-radius: 0.5rem;
+    font-size: 22px;
 }
 
 .bloc .descricao-container{
@@ -152,6 +185,8 @@ section .container-consultas{
     padding: 0 0 0 10px;
 }
 
+
+
 .botao-salvar{
     display: flex;
     align-items: center; /*eixoX*/
@@ -159,8 +194,9 @@ section .container-consultas{
     background-color: rgb(92, 92, 212);
     width: 180px;
     height: 40px;
-    border: 2px solid #000;
+    border: 1.4px solid #000;
     border-radius: 0.5rem;
+    cursor: pointer;
 }
 
 
@@ -177,8 +213,9 @@ section .container-consultas{
     background-color: black;
     width: 180px;
     height: 40px;
-    border: 2px solid #000;
+    border: 1.4px solid #000;
     border-radius: 0.5rem;
+    cursor: pointer;
 }
 
 .botao-cancelar p{

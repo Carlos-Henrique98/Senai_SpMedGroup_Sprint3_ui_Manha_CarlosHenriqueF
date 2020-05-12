@@ -149,30 +149,33 @@ header{
 
 /*Espaco - INFORMAÇÕES*/
 
+.espaco-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacoes-img{
+    padding: 65px 0 35px 45px;
+}
+
 /*espacamento*/
 .titulo-info{
     text-align: center;
     margin-top: 3.9rem;
 }
 
-/* .espaco-info .titulo-info{
-    margin-top: 6.0rem;
-} */
-
 /*SPMEDGROUP*/
 .clinica-descricao span{
     font-family: 'Electrolize', sans-serif;
     font-size: 38px;
     font-weight: 60;
-    /* float: left; */
-    padding: 0  0  0 20px;
 }
 
-.clinica-descricao{
+/* .clinica-descricao{
     margin-bottom: 3rem;
     display: block;
     flex-direction: column;
-}
+} */
 
 .clinica-descricao p{
     line-height:  1.6;
@@ -181,14 +184,18 @@ header{
     flex-direction: column;
 }
 
-/* .informacoes-img{
-    float: right;
-} */
-
 /*IMAGENS*/
 
+.atividades h2{
+    padding: 40px 0 40px 40px;
+    font-weight: 60;
+}
 
-
+.atividades h2{
+    font-size: 38px;
+    font-family: 'Electrolize', sans-serif;
+    float: left;
+}
 
 .container2{
     width: 1280px;
@@ -202,7 +209,6 @@ header{
     position: relative;
     width: 300px;
     height: 300px;
-    background: #ff0;
     margin: 10px;
     box-sizing: border-box;
     display: inline-block;
@@ -269,6 +275,7 @@ header{
     font-size: 38px;
     font-family: 'Electrolize', sans-serif;
     text-align: center;
+    font-weight: 60;
 }
 
 
@@ -375,6 +382,11 @@ section .nome-espaco h2{
 }
 
 /*SERVICES*/
+.servicos-titulo h1{
+    color: #fff;
+    font-weight: 60;
+}
+
 .body{
     background: #457eb4;
     min-height: 100vh;
@@ -459,9 +471,15 @@ section .nome-espaco h2{
     background: #6ab04c;
 }
 
+.service{
+    width: 100%;
+    height: 350px;
+    background-color: #1cb48e;
+}
+
 /*MAPA*/
 iframe{
-    padding: 10px 0 60px 0;
+    padding: 10px 0 60px 15px;
 }
 
 /*FUNDO AZUL*/
@@ -476,7 +494,8 @@ iframe{
 
 footer{
     padding: 7.9rem 0;
-    background-color: #121212;
+    /* background-color: #1cb48e; */
+    background-color: #000;
     color: #fff;
     text-align: center;
     position: relative;
@@ -485,7 +504,8 @@ footer{
 .back-to-top{
     width: 7rem;
     height: 7rem;
-    background-color: #121212;
+    background-color: #000;
+    /* background-color: #1cb48e; */
     position: absolute;
     top:-3rem;
     left: 50%;
@@ -499,6 +519,7 @@ footer{
     font-size: 2rem;
     padding: 2rem;
     animation: up 2s infinite;
+    /* text-decoration: none; */
 }
 
 .footer-content{
