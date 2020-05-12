@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #fff;
+    background-color: rgb(204, 204, 204);
 }
 
 /*LOGO*/
@@ -56,6 +56,10 @@ header{
 
 /*---------------------------------------------------------*/
 
+.container{
+    padding: 30px 0 0 0;
+}
+
 .container-consultas{
     background-color: rgb(92, 92, 212);
     width: 100%;
@@ -66,11 +70,15 @@ header{
     color: #fff;
     font-family: 'Electrolize', sans-serif;
     font-size: 45px;
-    text-align: center;
+   
 }
 
-.container-consultas h2{
- 
+section .container-consultas{
+   display: flex;
+    align-items: center; /*eixoX*/
+    justify-content: center;/*eixoY*/
+  
+    
 }
 
 /*--------------------------------------------*/
@@ -82,12 +90,20 @@ header{
 }
 
 .bloc{
-    padding: 30px 20px 0 20px;
+    padding: 60px 20px 0 20px;
 }
 
 .registros h3{
     font-family: 'Electrolize', sans-serif;
     font-size: 20px;
+}
+
+.cont{
+    padding: 20px 0 0 0;
+}
+
+#dados-do-paciente{
+    padding: 0 0 15px 0;
 }
 
 .nome-container{
@@ -98,11 +114,10 @@ header{
     border-radius: 0.5rem;
 }
 
-.bloc .nome-container p{
+.bloc .nome-container{
     display: flex;
-    align-items: flex-start;
     align-items: center;
-
+    padding: 0 0 0 10px;
 }
 
 .nome-container p{
@@ -117,6 +132,12 @@ header{
     border-radius: 0.5rem;
 }
 
+.bloc .data-container{
+    display: flex;
+    align-items: center;
+    padding:  0 0 0 10px;
+}
+
 .descricao-container{
     background-color: #fff;
     width: 260px;
@@ -125,23 +146,34 @@ header{
     border-radius: 0.5rem;
 }
 
+.bloc .descricao-container{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 10px;
+}
+
 .botao-salvar{
-    background-color: blue;
+    display: flex;
+    align-items: center; /*eixoX*/
+    justify-content: center;
+    background-color: rgb(92, 92, 212);
     width: 180px;
     height: 40px;
     border: 2px solid #000;
     border-radius: 0.5rem;
-
 }
+
 
 .botao-salvar p{
     font-size: 24px;
     font-family: 'Electrolize', sans-serif;
     color:#fff;
-    text-align: center;
 }
 
 .botao-cancelar{
+    display: flex;
+    align-items: center; /*eixoX*/
+    justify-content: center;
     background-color: black;
     width: 180px;
     height: 40px;
@@ -163,7 +195,7 @@ header{
 }
 
 .botoes{
-    padding: 20px 15px 0 0;
+    padding: 60px 15px 0 0;
 }
 
 .container-rodape{
