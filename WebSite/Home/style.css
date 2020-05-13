@@ -340,8 +340,8 @@ header{
 }
 
 .testimonial-pics img{
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
     border-radius: 50%;
     margin: 0 20px;
     filter: grayscale(100%);
