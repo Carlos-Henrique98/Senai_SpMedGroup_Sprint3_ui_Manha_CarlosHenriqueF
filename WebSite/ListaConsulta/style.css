@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    /* background-image: url(../Imagens/Fotos/PessoasMed/FUNDO.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh; */
+    background: rgb(221, 221, 221);
+}
+
+/*LOGO*/
+.logo img{
+    width: 100px;
+    height: 100px;
+    /* padding: 40px 0 0 30px; */
+}
+
+.menu{
+    flex: 1;
+    text-align: right;
+    
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.menu ul a li{
+    color:#fff;
+    font-family: 'Electrolize', sans-serif;
+    font-weight: 20;
+    font-size: 25px;
+    margin:  0 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 30px 0 30px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+header{
+    width: 100%;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.6), transparent);
+}
+
+/*CONSULTAS CONTAINER*/
+.texto{
+    background-color: #000;
+    width: 350px;
+    height: 60px;
+    border: 2px solid #000;
+    border-radius: 1rem;
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto p{
+    color:#fff;
+    font-size: 24px;
+    text-align: text;
+    font-family: 'Electrolize', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0 0 0;
+}
+/*CONTAINER AZUL - ICONES*/
+.container-pos{
+    padding: 20px 0 0 0;
+}
+
+.container-icones{
+    background-color: rgb(13, 13, 218);
+    width: 550px;
+    height: 350px;
+    border: 2px solid #000;
+    border-radius: 1rem;
+}
+
+.container-pos {
+    display: flex;
+    justify-content: center;
+}
+
+.container-icon img{
+    width: 70px;
+    height:70px;
+}
+
+.container-icon{
+    display: flex;
+    align-items: center;
+    padding: 30px 0 0 0;
+}
+
+.nome-paciente h2{
+    padding: 0px 0 10px 10px;
+}
+
+.nome-paciente p{
+    padding: 0 0 10px 10px;
+}
+
+.data-paciente h2{
+    padding: 0 0 10px 10px;
+}
+
+.data-paciente p{
+    padding:  0 0 10px 10px;
+}
+
+.descricao-paciente h2{
+    padding: 0 0 10px 10px;
+}
+
+.descricao-paciente p{
+    padding: 0 0 10px 10px;
+}
+
+.cliente{
+    color: #fff;
+}
+
+.container-icones{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*CONTAINER - PRETO*/
+.texto-clinica{
+    background-color: #000;
+    width: 300px;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 1rem;
+}
+
+.texto-clinica h2{
+    color:#fff;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 24px;
+}
+
+.texto-clinica{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-dados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 0 0;
+}
