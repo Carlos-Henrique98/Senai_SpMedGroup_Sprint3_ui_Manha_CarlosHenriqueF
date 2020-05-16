@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    /* background-image: url(../Imagens/Fotos/PessoasMed/FUNDO.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh; */
+    background: rgb(221, 221, 221);
+}
+
+/*LOGO*/
+.logo img{
+    width: 100px;
+    height: 100px;
+    /* padding: 40px 0 0 30px; */
+}
+
+.menu{
+    flex: 1;
+    text-align: right;
+    
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.menu ul a li{
+    color:#fff;
+    font-family: 'Electrolize', sans-serif;
+    font-weight: 20;
+    font-size: 25px;
+    margin:  0 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 30px 0 30px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+header{
+    width: 100%;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.6), transparent);
+}
+
+/*CONTAINER - TITULO - PACIENTES*/
+
+.titulo-paciente{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+
+.titulo-paciente h2{
+    font-size: 35px;
+    font-family: 'Electrolize', sans-serif;
+}
+
+.titulo-paciente{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dados-paciente{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+
+.dados-paciente h2{
+    font-size: 20px;
+    font-family: 'Electrolize', sans-serif;
+}
+
+.registros-paciente{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+}
+
+.registros-paciente p{
+    font-size: 14px;
+}
+
+.container-paciente{
+    padding: 30px 0 0 0;
+}
+
